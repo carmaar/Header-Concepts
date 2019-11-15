@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#E5E6EB;
+}
+
+#container {
+    position: relative;
+    background-image:url(ficusbg.jpeg);
+    background-repeat: no-repeat;
+    max-width:55%;
+    margin:5em auto;
+    height:650px;
+    cursor: url('/cursor.png');
+
+}
+
+header {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color:white;
+}
+
+/* TEXT STYLES */
+
+h1 {
+    border-bottom: 1px solid rgb(138, 138, 138);
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    color:rgb(109, 109, 109);
+}
+
+a {
+    transition: all .3s ease-in-out;
+    text-decoration:none;
+    color:rgb(194, 194, 194);
+}
+
+a:hover {
+    color:rgb(109, 109, 109);
+}
+
+
+/* DROP DOWN */
+
+.dropdown {
+    color:rgb(194, 194, 194);
+    position:relative;
+    display:inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown:hover {
+    color:rgb(109, 109, 109);
+}
+
+.drop-content {
+    padding:1em;
+    display:none;
+    position:absolute;
+    background-color:#f1f1f1;
+    min-width:500px;
+    margin-top:2em;
+    margin-left:-5em;
+    z-index:1;
+    transition:all .3s ease-in-out;
+}
+
+.drop-content p {
+    text-align:justify;
+    color:rgb(109, 109, 109);
+
+}
+
+.dropdown:hover .drop-content {
+    display:block;
+}
+
+
+/* END DROPDOWN */
+
+/* NAV */
+
+.one, .two {
+    margin:0;
+    padding:15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.one {
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+
+.two {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+li {
+    padding:1em;
+    display:inline;
+}
+
+

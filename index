@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>à tout à l'heure</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    
+
+    </head>
+
+    <body>
+
+        <div id="container">
+            <header>
+
+                    <!-- LINKS 1 -->
+
+                    <ul class="one">
+                        
+                        <li><a href="/">Home</a></li>
+                    
+                        <!-- ABOUT PAGE -->
+
+                        <li><div class="dropdown">About
+                            <div class="drop-content">                            
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laudantium ab natus repudiandae aliquid alias esse molestias commodi impedit maxime, sequi, molestiae cupiditate sed aspernatur ratione reprehenderit cum. Quas, pariatur?</p>
+                            </div>
+                        </div></li>
+                    </ul>
+
+                    <h1>à tout à l'heure</h1>
+
+                    <!-- LINKS 2-->
+
+                    <ul class="two">
+
+                        <!-- BLOG PAGE -->
+
+                        <li><a href="/">Blog</a></li>
+
+                        <!-- MORE PAGE -->
+
+                        <li><a href="/more">More</a></li>
+                    </ul>
+
+            </header>
+        </div>
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>
